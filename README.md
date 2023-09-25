@@ -1,6 +1,6 @@
 # Phishing URL Detector
 
-This is a web application for detecting phishing URLs. It allows users to enter a URL, and it uses a machine learning model(I've used Random Forest classifier) to determine whether the URL is safe or potentially a phishing site.
+This is a web application for detecting phishing URLs. It allows users to enter a URL, and it uses a machine learning model (I've used Random Forest classifier) to determine whether the URL is safe or potentially a phishing site.
 
 ## Features
 
