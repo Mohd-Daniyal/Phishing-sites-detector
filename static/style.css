@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#url-form {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 400px; 
+    padding: 10px; 
+}
+
+button.cute-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+}
+
+button.cute-button:hover {
+    background-color: #0056b3; 
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#notification {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#notification.safe {
+    background-color: #5cb85c; 
+}
+
+#notification.phishing {
+    background-color: #d9534f; 
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to Phishing site Detector</h1>
+    <form id="url-form" action='/' method='POST'>
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name='url' required pattern="https?://.+">
+        <button class="cute-button" type="submit">Detect</button>
+    </form>
+    <div id="notification"></div>
+    <script>
+        var isPhishing = "{{ result }}";
+    </script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
